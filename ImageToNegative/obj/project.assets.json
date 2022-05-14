@@ -174,11 +174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Xoja\\source\\repos\\New folder\\imageConvertor\\ImageToNegative\\ImageToNegative.csproj",
+      "projectUniqueName": "C:\\Users\\Xoja\\source\\repos\\imageConvertor\\ImageToNegative\\ImageToNegative.csproj",
       "projectName": "ImageToNegative",
-      "projectPath": "C:\\Users\\Xoja\\source\\repos\\New folder\\imageConvertor\\ImageToNegative\\ImageToNegative.csproj",
+      "projectPath": "C:\\Users\\Xoja\\source\\repos\\imageConvertor\\ImageToNegative\\ImageToNegative.csproj",
       "packagesPath": "C:\\Users\\Xoja\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Xoja\\source\\repos\\New folder\\imageConvertor\\ImageToNegative\\obj\\",
+      "outputPath": "C:\\Users\\Xoja\\source\\repos\\imageConvertor\\ImageToNegative\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Xoja\\AppData\\Roaming\\NuGet\\NuGet.Config",

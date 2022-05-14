@@ -1,11 +1,13 @@
-﻿<Window x:Class="ImageToNegative.MainWindow"
+﻿<Window x:Name="MainWIndow" x:Class="ImageToNegative.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ImageToNegative"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None"
+        
+        >
     <DockPanel >
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -18,11 +20,17 @@
                     <MenuItem x:Name="miGreen" Header="Green" Click="miGreen_Click"/>
                     <MenuItem x:Name="miBlue" Header="Blue" Click="miBlue_Click"/>
                 </MenuItem>
+                <MenuItem Header="Mirroring ">
+                    <MenuItem x:Name="miRightMirroring" Header="Right mirroring" Click="miRightMirroringClick"/>
+                    <MenuItem x:Name="miLeftMirroring" Header="Left mirroring" Click="miLeftMirroringClick"/>
+                </MenuItem>
                 <MenuItem x:Name="miSaveAs" Header="_Save as" Click="miSaveAs_Click"/>
                 <Separator/>
                 <MenuItem x:Name="miExit" Header="Exit" Click="miExit_Click"/>
             </MenuItem>
+            
         </Menu>
+       
         <Grid DockPanel.Dock="Bottom" Height="24">
             <TextBox x:Name="txbImgLocation" Text="Please choose option from File menu bar" IsReadOnly="True" FontSize="20" Padding="15 -5 0 0" VerticalContentAlignment="Top"/>
         </Grid>
